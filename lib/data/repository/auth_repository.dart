@@ -40,7 +40,7 @@ class AuthRepository {
     }
   }
 
-  Future<Either<String, String>> resgister(
+  Future<Either<String, String>> register(
     RegisterRequestModel requestModel,
   ) async {
     try {
