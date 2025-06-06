@@ -14,7 +14,7 @@ class ProfileBuyerRepository {
     BuyerProfileRequestModel requestModel,
   ) async {
     try {
-      final response = await _serviceHttpClient.postWihToken(
+      final response = await _serviceHttpClient.postWithToken(
         "buyer/profile",
         requestModel.toMap(),
       );

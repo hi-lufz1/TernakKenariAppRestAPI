@@ -16,7 +16,7 @@ class PostingRepostory {
     PostingJualRequestModel requestModel,
   ) async {
     try {
-      final response = await _serviceHttpClient.postWihToken(
+      final response = await _serviceHttpClient.postWithToken(
         'admin/posting-jual',
         requestModel.toMap(),
       );

@@ -17,7 +17,7 @@ class PrifileAdminRepository {
     AdminProfileResponseModel requestModel,
   ) async {
     try {
-      final response = await _serviceHttpClient.postWihToken(
+      final response = await _serviceHttpClient.postWithToken(
         'admin/profile',
         requestModel.toMap(),
       );
