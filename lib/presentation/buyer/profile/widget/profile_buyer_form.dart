@@ -1,5 +1,5 @@
-import 'package:canary_farm/data/models/request/buyer/buyer_profile_request_model.dart';
-import 'package:canary_farm/presentation/buyer/profile/bloc/profile_buyer_bloc.dart';
+import 'package:canaryfarm/data/model/request/buyer/buyer_profile_request_model.dart';
+import 'package:canaryfarm/presentation/buyer/profile/bloc/profile_buyer_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
