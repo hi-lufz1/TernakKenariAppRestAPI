@@ -3,6 +3,7 @@ import 'package:canaryfarm/data/repository/get_all_burung_tersedia_repository.da
 import 'package:canaryfarm/data/repository/profile_buyer_repository.dart';
 import 'package:canaryfarm/presentation/auth/bloc/get_all_burung_tersedia/get_burung_tersedia_bloc.dart';
 import 'package:canaryfarm/presentation/auth/bloc/login/login_bloc.dart';
+import 'package:canaryfarm/presentation/auth/bloc/login_screen.dart';
 import 'package:canaryfarm/presentation/auth/bloc/register/register_bloc.dart';
 import 'package:canaryfarm/presentation/buyer/profile/bloc/profile_buyer_bloc.dart';
 import 'package:canaryfarm/services/service_http_client.dart';
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: const Splashscreen(),
+        home: const LoginScreen(),
       ),
     );
   }

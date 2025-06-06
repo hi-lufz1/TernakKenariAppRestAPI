@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:canaryfarm/data/model/response/burung_semua_tersedia_model.dart';
 import 'package:canaryfarm/data/repository/get_all_burung_tersedia_repository.dart';
 import 'package:meta/meta.dart';
 

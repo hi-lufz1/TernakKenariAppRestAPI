@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:canaryfarm/data/model/request/buyer/buyer_profile_request_model.dart';
 import 'package:canaryfarm/data/model/response/buyer/buyer_profile_response_model.dart';
 import 'package:canaryfarm/data/repository/profile_buyer_repository.dart';
 import 'package:meta/meta.dart';
