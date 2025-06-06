@@ -2,6 +2,8 @@ import 'package:canaryfarm/core/components/components.dart';
 import 'package:canaryfarm/core/components/spaces.dart';
 import 'package:canaryfarm/core/constants/colors.dart';
 import 'package:canaryfarm/core/core.dart';
+import 'package:canaryfarm/data/model/request/auth/register_request_model.dart';
+import 'package:canaryfarm/presentation/auth/bloc/login_screen.dart';
 import 'package:canaryfarm/presentation/auth/bloc/register/register_bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
