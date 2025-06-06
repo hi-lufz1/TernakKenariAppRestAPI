@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:canaryfarm/data/model/request/register_request_model.dart';
+import 'package:canaryfarm/data/model/request/auth/register_request_model.dart';
 import 'package:canaryfarm/data/model/response/login_response_model.dart';
 import 'package:canaryfarm/services/service_http_client.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
