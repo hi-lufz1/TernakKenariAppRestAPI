@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:canaryfarm/data/model/request/auth/login_request_model.dart';
 import 'package:canaryfarm/data/model/response/auth_response_model.dart';
+import 'package:canaryfarm/data/model/response/login_response_model.dart';
 import 'package:canaryfarm/data/repository/auth_repository.dart';
 import 'package:meta/meta.dart';
 
