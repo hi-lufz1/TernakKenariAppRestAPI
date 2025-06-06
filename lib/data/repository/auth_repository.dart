@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:canaryfarm/data/model/request/auth/login_request_model.dart';
 import 'package:canaryfarm/data/model/request/auth/register_request_model.dart';
 import 'package:canaryfarm/data/model/response/login_response_model.dart';
 import 'package:canaryfarm/services/service_http_client.dart';
@@ -13,7 +14,7 @@ class AuthRepository {
   AuthRepository(this._serviceHttpClient);
 
   Future<Either<String, LoginResponseModel>> login(
-    LoginResponseModel requestModel,
+    LoginRequestModel requestModel,
   ) async {
     try {
       final response = await _serviceHttpClient.post(
